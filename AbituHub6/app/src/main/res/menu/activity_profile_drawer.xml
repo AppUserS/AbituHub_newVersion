@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news2"
+            android:title="Новости" />
+        <item
+            android:id="@+id/nav_univer"
+            android:icon="@drawable/univers2"
+            android:title="Университеты" />
+        <item
+            android:id="@+id/nav_olympiad"
+            android:icon="@drawable/olympiad"
+            android:title="Олимпиады" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/bookmark"
+            android:title="Подписки" />
+        <item
+            android:id="@+id/nav_calc_ege"
+            android:icon="@drawable/calc_ege"
+            android:title="Калькулятор ЕГЭ" />
+    </group>
+
+    <item android:title="Поддержка">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="Настройки" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about_us2"
+                android:title="О нас" />
+        </menu>
+    </item>
+
+</menu>
