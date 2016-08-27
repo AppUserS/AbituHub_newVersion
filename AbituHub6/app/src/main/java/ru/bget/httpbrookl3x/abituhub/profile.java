@@ -27,10 +27,15 @@ public class profile extends AppCompatActivity
         setContentView(R.layout.activity_profile);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
         Button button = (Button) findViewById(R.id.nav_news);
         Button button1 = (Button) findViewById(R.id.nav_settings);
         Button button2 = (Button) findViewById(R.id.nav_olympiad);
-       // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+
+
+        // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         //  fab.setOnClickListener(new View.OnClickListener() {
         //   @Override
             //   public void onClick(View view) {
