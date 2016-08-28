@@ -27,10 +27,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".loginactivity"
-            android:label="@string/title_activity_loginactivity" />
+            android:label="@string/title_activity_loginactivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" />
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".profile"
             android:lable="@string/title_activity_profile"
@@ -41,12 +43,7 @@
         <activity
             android:name=".olympiad"
             android:label="@string/title_activity_olympiad"
-            android:parentActivityName=".profile"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ru.bget.httpbrookl3x.abituhub.profile" />
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
