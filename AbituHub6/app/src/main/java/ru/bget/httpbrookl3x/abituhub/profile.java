@@ -20,6 +20,7 @@ public class profile extends AppCompatActivity
     Button button;
     Button button1;
     Button button2;
+    Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class profile extends AppCompatActivity
         Button button = (Button) findViewById(R.id.nav_news);
         Button button1 = (Button) findViewById(R.id.nav_settings);
         Button button2 = (Button) findViewById(R.id.nav_olympiad);
+        Button button3 = (Button) findViewById(R.id.nav_subscription);
 
 
 
@@ -101,7 +103,8 @@ public class profile extends AppCompatActivity
             Intent intent = new Intent(this, olympiad.class);
             startActivity(intent);
         } else if (id == R.id.nav_subscription) {
-
+            Intent intent = new Intent(this, SubscriptionsActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_calc_ege) {
 
         } else if (id == R.id.nav_settings) {

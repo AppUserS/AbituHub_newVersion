@@ -22,20 +22,20 @@
         </activity>
         <activity android:name=".HomeActivity" />
         <activity
+            android:name=".profile"
+            android:lable="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Scrolling_news_Activity"
             android:label="@string/title_activity_scrolling_news_"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".loginactivity"
             android:label="@string/title_activity_loginactivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".profile"
-            android:lable="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ProfileActivity"
@@ -43,7 +43,11 @@
         <activity
             android:name=".olympiad"
             android:label="@string/title_activity_olympiad"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubscriptionsActivity"
+            android:label="@string/title_activity_subscriptions"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
