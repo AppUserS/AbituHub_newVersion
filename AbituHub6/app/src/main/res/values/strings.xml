@@ -176,4 +176,8 @@
     <string name="title_activity_olympiad">Олимпиады</string>
     <string name="title_activity_navigation_drawer">NavigationDrawer</string>
     <string name="title_activity_subscriptions">Подписки</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="action_search">SearchActivity</string>
+    <string name="title_activity_univ_profile">UnivProfileActivity</string>
+    <string name="action_back">Назад</string>
 </resources>

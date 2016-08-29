@@ -34,6 +34,8 @@ public class profile extends AppCompatActivity
         Button button1 = (Button) findViewById(R.id.nav_settings);
         Button button2 = (Button) findViewById(R.id.nav_olympiad);
         Button button3 = (Button) findViewById(R.id.nav_subscription);
+        Button button4 = (Button) findViewById(R.id.nav_calc_ege);
+        Button button5 = (Button) findViewById(R.id.nav_profile);
 
 
 
@@ -98,6 +100,8 @@ public class profile extends AppCompatActivity
             Intent intent = new Intent(this, Scrolling_news_Activity.class);
             startActivity(intent);
         } else if (id == R.id.nav_univer) {
+            Intent intent = new Intent(this, SearchActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_olympiad) {
             Intent intent = new Intent(this, olympiad.class);
@@ -107,6 +111,12 @@ public class profile extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_calc_ege) {
 
+        } else if (id == R.id.nav_subscription) {
+            Intent intent = new Intent(this, SubscriptionsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_profile) {
+            Intent intent = new Intent(this, ProfileActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_settings) {
             Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);

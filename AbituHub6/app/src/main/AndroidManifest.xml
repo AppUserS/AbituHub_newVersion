@@ -47,6 +47,14 @@
         <activity
             android:name=".SubscriptionsActivity"
             android:label="@string/title_activity_subscriptions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnivProfileActivity"
+            android:label="@string/title_activity_univ_profile"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
