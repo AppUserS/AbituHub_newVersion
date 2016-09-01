@@ -171,13 +171,12 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="title_activity_olumpiad">олимпиады</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_olympiad">Олимпиады</string>
     <string name="title_activity_navigation_drawer">NavigationDrawer</string>
     <string name="title_activity_subscriptions">Подписки</string>
-    <string name="title_activity_search">SearchActivity</string>
-    <string name="action_search">SearchActivity</string>
-    <string name="title_activity_univ_profile">UnivProfileActivity</string>
+    <string name="title_activity_search">Поиск</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_univ_profile">Иннополис</string>
     <string name="action_back">Назад</string>
 </resources>
