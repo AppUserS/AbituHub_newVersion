@@ -179,4 +179,5 @@
     <string name="action_search">Search</string>
     <string name="title_activity_univ_profile">Иннополис</string>
     <string name="action_back">Назад</string>
+    <string name="title_activity_calc_ege">CalcEgeActivity</string>
 </resources>

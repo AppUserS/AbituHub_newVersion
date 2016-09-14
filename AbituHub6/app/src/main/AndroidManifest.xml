@@ -55,6 +55,10 @@
         <activity
             android:name=".UnivProfileActivity"
             android:label="@string/title_activity_univ_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalcEgeActivity"
+            android:label="@string/title_activity_calc_ege"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

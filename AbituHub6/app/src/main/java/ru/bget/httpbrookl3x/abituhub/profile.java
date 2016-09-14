@@ -21,6 +21,8 @@ public class profile extends AppCompatActivity
     Button button1;
     Button button2;
     Button button3;
+    Button button4;
+    Button button5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,7 +86,8 @@ public class profile extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_search) {
-            return true;
+            Intent intent = new Intent(this, SearchActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -110,9 +113,7 @@ public class profile extends AppCompatActivity
             Intent intent = new Intent(this, SubscriptionsActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_calc_ege) {
-
-        } else if (id == R.id.nav_subscription) {
-            Intent intent = new Intent(this, SubscriptionsActivity.class);
+            Intent intent = new Intent(this, CalcEgeActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_profile) {
             Intent intent = new Intent(this, ProfileActivity.class);
